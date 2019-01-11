@@ -48,11 +48,14 @@ int sub(int number1, int number2)
 int multi(int number1, int number2)
 {
 	//TODO implementation
-	return number1 * number2;
+	return number1 * number2; //
 }
  
 int div(int number1, int number2)
 {
 	//TODO implementation
+	if(number2 == 0){
+		return 0;
+	}
 	return (int)(number1/number2);
 }
